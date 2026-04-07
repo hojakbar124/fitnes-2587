@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.section-one {
+    width: 100%;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.a {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('https://oridahotels.com/wp-content/uploads/2021/11/orida-health-classes-header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.b {
+    z-index: 2;
+}
+
+.c {
+    background-color: #00aeef;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.c:hover {
+    transform: scale(1.1);
+}
+
+.d {
+    color: white;
+    font-size: 24px;
+}
+
+.e {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.f {
+    background-color: #3ec7ef;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.g {
+    width: 60px;
+    height: 2px;
+    background-color: #f1c40f;
+}
+
+.h {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 700px;
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+
+.section-two {
+    width: 100%;
+    padding: 80px 0;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.kocha {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.brat {
+    flex: 1;
+    padding-left: 40px;
+    z-index: 10;
+}
+
+.sarlavha {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+}
+
+.moviy {
+    color: #00aeef;
+}
+
+.chiziq {
+    width: 60px;
+    height: 4px;
+    background-color: #f1c40f;
+    margin: 25px 0;
+}
+
+.gap {
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 350px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.omad {
+    display: inline-flex;
+    text-decoration: none;
+    color: #00aeef;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.nima {
+    flex: 1.2;
+    position: relative;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foni {
+    position: absolute;
+    right: -100px;
+    width: 100%;
+    height: 100%;
+    background-color: #00aeef;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
+}
+
+.rasm {
+    position: relative;
+    z-index: 2;
+    max-width: 80%;
+    left: 100px;
+    bottom: 10px;
+}
+
+.section-three {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.bbbbbbbbb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ccccccccc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ddddddddd {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://thumbs.dreamstime.com/b/marathon-running-race-people-feet-road-sport-fitness-healthy-lifestyle-concept-50346721.jpg');
+    background-size: cover;
+    padding: 40px;
+    color: white;
+    min-height: 250px;
+}
+
+.eeeeeeeee {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+}
+
+.fffffffff {
+    width: 60px;
+    height: 3px;
+    background-color: #f1c40f;
+    margin-bottom: 20px;
+}
+
+.ggggggggg {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.hhhhhhhhh {
+    background-color: #00aeef;
+    color: white;
+    padding: 40px;
+    min-height: 250px;
+}
+
+.iiiiiiiii {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jjjjjjjjj {
+    background-color: #00aeef;
+    color: white;
+    padding: 40px;
+    min-height: 250px;
+}
+
+.kkkkkkkkk {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://myhub.fi/cdn/shop/articles/myhub-powered-by-egym-alykasta-voimaa-min_1.jpg?v=1766579909');
+    background-size: cover;
+    padding: 40px;
+    color: white;
+    min-height: 250px;
+}
+
+.lllllllll {
+    z-index: 2;
+}
+
+.section-four {
+    width: 100%;
+}
+
+.za {
+    display: flex;
+    min-height: 650px;
+}
+
+.sa {
+    width: 55%;
+    background: #f3f3f3;
+    padding: 70px;
+}
+
+.ma {
+    color: #1da4d8;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.ka {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.la {
+    max-width: 260px;
+}
+
+.na {
+    font-size: 28px;
+    color: #1da4d8;
+    margin-bottom: 10px;
+}
+
+.na p {
+    width: 245px;
+    height: 90px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.na h4 {
+    width: 185px;
+    height: 22px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.pa {
+    width: 45%;
+}
+
+.pa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-five {
+    width: 100%;
+    padding: 70px;
+    background: #eee;
+}
+
+.ra {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.ra span {
+    color: #19a7d8;
+}
+
+.ta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.ba {
+    position: relative;
+    overflow: hidden;
+}
+
+.ba img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.ga {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.35);
+    flex-wrap: wrap;
+}
+
+.ga h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.line {
+    width: 429px;
+    height: 5px;
+    top: 4703px;
+    left: 191px;
+    border-radius: 5px;
+    background: #FFFF19;
+    margin-bottom: 10px;
+}
+
+.section-six {
+    width: 1440px;
+    height: 704px;
+}
+
+.opa img {
+    width: 588px;
+    height: 430px;
+    top: 5424px;
+    left: 100px;
+}
+
+.brat {
+    width: 632px;
+    height: 168px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 46px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #01AEE7;
+    position: relative;
+    right: 50px;
+}
+
+.what {
+    width: 600px;
+    border: none;
+    border-bottom: 2px solid #bdbdbd;
+    padding: 12px 0;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.what::placeholder {
+    color: #555;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.what:hover {
+    border-bottom: 2px solid #888;
+}
+
+.what:focus {
+    border-bottom: 2px solid #000;
+}
+
+.what[type="number"]::-webkit-outer-spin-button,
+.what[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.ona {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.aka {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.uka {
+    width: 217px;
+    height: 58px;
+    top: 5828px;
+    left: 730px;
+    gap: 10px;
+    padding-top: 17px;
+    padding-right: 51px;
+    padding-bottom: 17px;
+    padding-left: 51px;
+    background: #01AEE7;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    transform: scale(0.3s);
+}
+
+.uka:hover {
+    border: 2px solid #01AEE7;
+    box-shadow: rgb(0, 183, 255) 0px 4px 35px, rgb(0, 183, 255) 0px -2px 20px, rgb(0, 183, 255) 0px 4px 6px, rgb(0, 183, 255) 0px 12px 13px, rgb(0, 183, 255) 0px -3px 5px;
+}
+
+.jaja {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+.laaaa {
+    flex: 1;
+}
+
+.baaaaa {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.saaaa {
+    flex: 1;
+    background-color: #00aeef;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.maaaa {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.naaaa {
+    width: 80px;
+    height: 4px;
+    background-color: #ffff00;
+    margin-bottom: 25px;
+}
+
+.kaaaa {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 80%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.vaaaa {
+    background-color: #ffff00;
+    border: none;
+    padding: 12px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.vaaaa:hover {
+    background-color: #e6e600;
+}
+
+@media (max-width: 768px) {
+    .jaja {
+        flex-direction: column;
+    }
+}
+
+.jomq {
+    width: 100%;
+    height: 600px;
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.koj {
+    background-color: white;
+    padding: 40px;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.mol {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #000;
+    line-height: 1.2;
+}
+
+.op {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.tup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lap {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.kop {
+    display: flex;
+    background-color: #f2f2f2;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.gop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+.sap {
+    background: transparent;
+    border: none;
+    padding: 12px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.bop {
+    background-color: #00aeef;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.bop:hover {
+    background-color: #0087b8;
+}
+
+.mip {
+    font-size: 10px;
+    color: #999;
+    margin-top: 15px;
+    line-height: 1.4;
+}
